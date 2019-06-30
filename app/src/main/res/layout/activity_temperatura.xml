@@ -11,12 +11,15 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <!-- titulo de la vista, para diferenciarlo-->
         <TextView
             android:id="@+id/txtTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TEMPERATURA" />
 
+        <!-- Espacio donde se coloca la temperatura a la que
+            se encuentra el producto-->
         <TextView
             android:id="@+id/txtTemp"
             android:layout_width="match_parent"
